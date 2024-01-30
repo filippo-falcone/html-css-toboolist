@@ -10,24 +10,24 @@
 /* -----------
    GENERAL
 ----------- */
+body {
+    background-color: #f8f8f9;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
 .container {
     max-width: 780px;
     margin: 40px auto;
 }
 
-body {
-    background-color: #f8f8f9;
-}
-
 /* -----------
   APP HEADER
 ----------- */
-header {
-    font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
-    padding: 10px 20px;
-}
-
 .head-logo,
 .head-title {
     display: inline-block;
@@ -71,4 +71,83 @@ header {
     color: #c4cbd0;
     background-color: #ffffff;
     border: 1px solid #c4cbd0;
+}
+
+/* ------------
+APP MAIN
+------------ */
+.app.main {
+    padding-top: 30px;
+    border-radius: 0 0 10px 10px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.circle,
+.tag {
+    display: inline-block;
+}
+
+.action {
+    font-weight: 500;
+    margin: 10px 5px;
+    padding-bottom: 15px;
+}
+
+.circle {
+    width: 17px;
+    height: 17px;
+    font-size: 10px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 17px;
+    border-radius: 100%;
+}
+
+.action-text {
+    margin: 0 5px;
+}
+
+.tag {
+    color: #ffffff;
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.circle.check {
+    color: #4ccfb8;
+    border: 1px solid #4ccfb8;
+}
+
+.circle.uncheck {
+    color: #ff3f3f;
+    border: 1px solid #ff3f3f;
+}
+
+.tag.editorial {
+    background-color: #09a9ed;
+}
+
+.tag.q1-goals {
+    background-color: #ab5de6;
+}
+
+.tag.recruiting {
+    background-color: #2cc6ab;
+}
+
+.tag.mobile {
+    background-color: #ff9b00;
+}
+
+.tag.website {
+    background-color: #ec4a9d;
+}
+
+.tag.sale {
+    background-color: #a3d116;
 }
